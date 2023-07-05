@@ -130,7 +130,7 @@ class QRSharpener:
         data, bbox, straight_qrcode = detector.detectAndDecode(self.img_orig)
 
         # if there is a QR code
-        if bbox is not None:
+        if straight_qrcode is not None:
             self.qr_dim = straight_qrcode.shape[0]
             self.img_qr_cv2 = straight_qrcode
 

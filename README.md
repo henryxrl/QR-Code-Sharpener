@@ -37,7 +37,7 @@ Options:
 
 ## Test case 1
 
-Input photo is a unprocessed photo taken by phone.
+The input photo is a unprocessed photo taken by phone.
 
 ![Input photo](assets/test.jpeg)
 
@@ -59,7 +59,7 @@ Finally, the program outputs the recreated QR code:
 
 ## Test case 2
 
-Input is a blury photo of a QR code, provided [here](https://github.com/haraldF/qrsharpener/tree/master).
+The input is a blury photo of a QR code, provided [here](https://github.com/haraldF/qrsharpener/tree/master). Some modifications including adding white borders and transforming to rectangular shape have been applied to the blurry QR code to make it even harder to recreate.
 
 ![Input](assets/test2.jpeg)
 
