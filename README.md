@@ -63,11 +63,11 @@ The input is a blury photo of a QR code, provided [here](https://github.com/hara
 
 ![Input](assets/test2.jpeg)
 
-The program uses the user defined parameter (`qr_dim = 29`) and process individual tiles:
+The program uses the user-defined parameter (`qr_dim = 29`) and process individual tiles:
+
+**Note**: When using user-defined parameters, make sure the input image is cropped to the top-down view of only the QR code without any warping (white borders are fine since they will be automatically removed), otherwise the program will not work.
 
 ![Tiled](assets/test2_debug_tiled.png)
-
-**Note**: Make sure the input image is cropped to the QR code only without any warping (white borders are fine since they will be automatically removed), otherwise the program will not work.
 
 Finally, the program outputs the recreated QR code:
 
